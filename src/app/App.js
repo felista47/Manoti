@@ -1,14 +1,7 @@
-import './Navbar';
-import Navbar from './Navbar';
-import Sidebar from './Sidebar';
+import LandingPage from './LandingPage';
 
-function App() {
-  return (
-    <div className="App">
-<Navbar/>
-<Sidebar/>
-    </div>
-  );
-}
+const App = () => {
+  return <LandingPage />;
+};
 
 export default App;
