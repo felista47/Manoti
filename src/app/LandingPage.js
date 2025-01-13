@@ -82,37 +82,6 @@ const LandingPage = () => {
       </header>
 
       <WorkExperience/>
-
-
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-8">
-        <div className="container mx-auto px-6 text-center">
-          <p>© {new Date().getFullYear()} Geunbae Lee. All rights reserved.</p>
-          <div className="mt-4">
-            <a
-              href="#"
-              className="text-gray-400 hover:text-white mx-2"
-              aria-label="LinkedIn"
-            >
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-white mx-2"
-              aria-label="Twitter"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-white mx-2"
-              aria-label="GitHub"
-            >
-              <i className="fab fa-github"></i>
-            </a>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };

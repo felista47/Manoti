@@ -40,9 +40,15 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
+      <a
+        href="https://www.fiverr.com/s/XLQrpGD"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
+      >
         Hire Me
-      </button>
+    </a>
+
     </div>
   );
 };

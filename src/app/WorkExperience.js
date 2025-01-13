@@ -4,9 +4,9 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 const WorkExperience = () => {
     const experiences = [
       {
-        title: "Software Engineer Consultant",
-        company: "MCB Group, Mauritius",
-        date: "June, 2024 - Present",
+        title: "Data Science, Machine Learning and AI Intern",
+        company: "NRCH, ENGAGE PROGRAM",
+        date: "September, 2024 - october, 2024",
         responsibilities: [
           "Developed and maintained software applications for MCB Group, a leading financial institution in Mauritius.",
           "Collaborated with cross-functional teams to deliver high-quality software solutions.",
@@ -15,14 +15,24 @@ const WorkExperience = () => {
         ],
       },
       {
-        title: "Angular .NET Software Developer",
-        company: "ClearStar - The Jitu, Alpharetta, GA",
-        date: "December, 2023 - May, 2024",
+        title: "Intern, Information Technology",
+        company: "National Youth Service - HQ, Nairobi",
+        date: "May, 2023 - August, 2023",
         responsibilities: [
           "Designed and developed robust web applications using Angular and .NET.",
           "Implemented RESTful APIs and optimized backend logic for high-performance applications.",
           "Participated in code reviews and ensured adherence to software development best practices.",
           "Worked closely with stakeholders to gather and translate requirements into functional features.",
+        ],
+      },
+      {
+        title: "Software Developer Intern",
+        company: "The Jitu, Nyeri, Kenya",
+        date: "May, 2022 - August, 2022",
+        responsibilities: [
+          "Went through a training program on JavaScript, React, Node.js, Express, and SQL Server Database.",
+          "Tasked with performing tests and writing reports to the supervisor.",
+          "Interfaced with clients on a weekly basis, providing technological expertise and knowledge.",
         ],
       },
     ];
