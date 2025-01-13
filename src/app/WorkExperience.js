@@ -1,5 +1,6 @@
 import React from "react";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+
 const WorkExperience = () => {
     const experiences = [
       {
@@ -25,39 +26,36 @@ const WorkExperience = () => {
         ],
       },
     ];
-  
+
     return (
       <section className="bg-gray-100 text-white py-20">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-12 text-black">Work Experience</h2>
           <div className="relative">
-            {/* Timeline */}
+            {/* Timeline Line */}
             <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-700"></div>
-  
+
             {/* Experience Items */}
             {experiences.map((experience, index) => (
               <div
                 key={index}
-                className={`relative flex flex-col md:flex-row items-center mb-12 ${
-                  index % 2 === 0 ? "md:flex-row-reverse" : ""
-                }`}
+                className="relative mb-10"
               >
-                {/* Date and Icon */}
-                <div className="z-10 flex-shrink-0 w-12 h-12 bg-teal-500 text-white rounded-full flex items-center justify-center">
+                {/* Timeline Icon */}
+                <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-teal-500 text-white rounded-full flex items-center justify-center z-10">
                   <i className="fas fa-briefcase"></i>
                 </div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 bg-gray-700 h-full w-1"></div>
-  
+
+                {/* Date */}
+                <div className={`absolute ${index % 2 === 0 ? 'right-[55%]' : 'left-[55%]'} transform -translate-y-1/2 text-sm text-gray-400`}> 
+                  {experience.date}
+                </div>
+
                 {/* Experience Details */}
-                <div
-                  className={`w-full md:w-1/2 bg-gray-800 p-6 rounded-lg shadow-md ${
-                    index % 2 === 0 ? "ml-auto" : "mr-auto"
-                  }`}
-                >
-                  <h3 className="text-2xl font-semibold">{experience.title}</h3>
-                  <p className="text-teal-400">{experience.company}</p>
-                  <p className="text-sm text-gray-400">{experience.date}</p>
-                  <ul className="mt-4 list-disc list-inside space-y-2">
+                <div className={`relative bg-gray-800 p-6 rounded-lg shadow-md w-full max-w-xl ${index % 2 === 0 ? 'ml-auto' : 'mr-auto'} mt-8`}>
+                  <h3 className="text-2xl font-semibold mb-2">{experience.title}</h3>
+                  <p className="text-teal-400 mb-1">{experience.company}</p>
+                  <ul className="list-disc list-inside space-y-2">
                     {experience.responsibilities.map((item, i) => (
                       <li key={i} className="text-gray-300">
                         {item}
@@ -71,7 +69,6 @@ const WorkExperience = () => {
         </div>
       </section>
     );
-  };
-  
-  export default WorkExperience;
-  
+};
+
+export default WorkExperience;
