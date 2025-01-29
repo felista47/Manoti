@@ -3,13 +3,17 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   // Set a state to track the active page
-  const [activeLink, setActiveLink] = useState('portfolio');
+  const [activeLink, setActiveLink] = useState();
 
   return (
     <div className="bg-gray-80 text-black font-bold flex justify-between items-center py-4 px-40 fixed top-0 left-0 w-full z-50">
       <div className="flex items-center">
-        <h1 className="text-2xl font-bold">Your Brand</h1>
-      </div>
+      <Link
+            to="/"
+          >
+            Manoti
+          </Link> 
+       </div>
 
       <ul className="flex space-x-4">
         <li>
@@ -18,7 +22,7 @@ const Navbar = () => {
             onClick={() => setActiveLink('portfolio')}
             className={`hover:border-b-4 hover:border-blue-500 ${activeLink === 'portfolio' ? 'border-b-4 border-blue-500' : ''}`}
           >
-            Portfolio
+            Projects
           </Link>
         </li>
         <li>

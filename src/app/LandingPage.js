@@ -69,14 +69,15 @@ const LandingPage = () => {
                 {/* Arrow Icon */}
                 <div className="absolute bottom-[-24px] left-1/2 transform -translate-x-1/2">
 
-                  <div className="mt-8 flex justify-center">
-              <a
-                href="#"
-                className="bg-blue-500 text-white px-6 py-3 rounded-md shadow hover:bg-blue-600 transition"
-              >
-                Download Resume
-              </a>
-                  </div>
+                <div className="mt-8 flex justify-center">
+                <a
+                    href="https://drive.google.com/uc?export=download&id=1C2N30Eoi9Ee6qDX0BlMAL0eBZLMg6jTi"
+                    className="bg-blue-500 text-white px-6 py-3 rounded-md shadow hover:bg-blue-600 transition"
+                  >
+                    Download Resume
+                  </a>
+
+                </div>
                 </div>
         </div>
       </header>
