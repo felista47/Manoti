@@ -11,17 +11,17 @@ const projects = [
     bgColor: "bg-purple-200"
   },
   {
-    title: "Designing two key Analyze features",
-    date: "APR - NOV 2019",
-    description: "How I redesigned Unmetric’s flagship app homepage after three years and launched a key feature successfully.",
+    title: "Image Classification Using CNNs",
+    date: "APR - MAY 2024",
+    description: "Built and trained a Convolutional Neural Network to classify images from the CIFAR-10 dataset.",
     link: "#",
     image: "your-image-url-2.png",
     bgColor: "bg-blue-200"
   },
   {
-    title: "Unmetric Falcon Integration",
-    date: "DEC 2019 - FEB 2020",
-    description: "How I led the team of seven across three time zones and six locations to integrate Unmetric with Falcon.",
+    title: "Customer Churn Prediction",
+    date: "DEC 2024",
+    description: "Analyzed a telecom company’s dataset to identify churn patterns using logistic regression and random forest models",
     link: "#",
     image: "your-image-url-3.png",
     bgColor: "bg-yellow-200"

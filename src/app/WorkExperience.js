@@ -8,10 +8,9 @@ const WorkExperience = () => {
         company: "NRCH, ENGAGE PROGRAM",
         date: "September, 2024 - october, 2024",
         responsibilities: [
-          "Developed and maintained software applications for MCB Group, a leading financial institution in Mauritius.",
-          "Collaborated with cross-functional teams to deliver high-quality software solutions.",
-          "Utilized Agile methodologies to ensure timely delivery of software projects.",
-          "Refactor and optimize existing codebase to improve software performance and security.",
+          "Performed data preprocessing, ensuring data quality and completeness for predictive models.",
+          "Analyzed patient data to identify trends in disease prevalence and treatment outcomes..",
+          "Presented findings in a departmental seminar, enhancing communication and teamwork skills.",
         ],
       },
       {
@@ -19,10 +18,10 @@ const WorkExperience = () => {
         company: "National Youth Service - HQ, Nairobi",
         date: "May, 2023 - August, 2023",
         responsibilities: [
-          "Designed and developed robust web applications using Angular and .NET.",
-          "Implemented RESTful APIs and optimized backend logic for high-performance applications.",
-          "Participated in code reviews and ensured adherence to software development best practices.",
-          "Worked closely with stakeholders to gather and translate requirements into functional features.",
+          "Troubleshooted hardware/software issues and provided technical support.",
+          "Assisted with the maintenance and management of computer systems,networks, and database",
+          "Contributed to IT projects (installations, upgrades)",
+          "Researched industry trends to improve IT infrastructure",
         ],
       },
       {
