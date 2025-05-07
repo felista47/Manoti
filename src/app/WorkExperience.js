@@ -4,6 +4,20 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 const WorkExperience = () => {
     const experiences = [
       {
+        title: "Software developer intern",
+        company: "ORCARGO LIMITED",
+        date: "February, 2025 - April, 2025",
+        responsibilities: [
+          "Designed and developed the company’s main website and a community platform to support customer engagement and driver onboarding.",
+          "Built responsive user interfaces using HTML, Tailwind CSS, and JavaScript frameworks, ensuring mobile compatibility and modern UX",
+          "Developed backend functionality with Laravel and Node.js to support community features such as thread posting, image/video uploads, and user interactions",
+          "Integrated admin functionalities for managing users, threads, and posts, with full CRUD operations.",
+          "Collaborated closely with the team lead to architect and initiate development of a B2B logistics platform, focusing on API structure, database design, and dashboard UI",
+          "Participated in customer feedback collection and onboarding process for drivers during early-stage testing.",
+          
+        ],
+      },
+      {
         title: "Data Science, Machine Learning and AI Intern",
         company: "NRCH, ENGAGE PROGRAM",
         date: "September, 2024 - october, 2024",

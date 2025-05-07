@@ -71,7 +71,7 @@ const LandingPage = () => {
 
                 <div className="mt-8 flex justify-center">
                 <a
-                    href="https://drive.google.com/uc?export=download&id=1C2N30Eoi9Ee6qDX0BlMAL0eBZLMg6jTi"
+                    href="https://drive.google.com/uc?export=download&id=14HwwRijyAX957B27lsT5d4p0i2hsDx-3"
                     className="bg-blue-500 text-white px-6 py-3 rounded-md shadow hover:bg-blue-600 transition"
                   >
                     Download Resume
